@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { ImdbPage } from '../pages/IMDBPage'; // Убедитесь, что путь правильный
+import { ImdbPage } from '../pages/IMDBPage'; 
 
 test.describe('Task 1: Article Title Visibility', () => {
   let imdbPage: ImdbPage;
